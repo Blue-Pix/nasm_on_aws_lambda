@@ -1,0 +1,7 @@
+version: "3"
+services:
+  app:
+    build: .
+    command: ./bin/app
+    volumes:
+      - .:/usr/src/assemmbly_on_aws_lambda
